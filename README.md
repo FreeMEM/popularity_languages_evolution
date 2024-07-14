@@ -13,3 +13,21 @@ PYPL tal como explica en su página es:
 
 
 Si cree en la sabiduría colectiva, el índice de popularidad de lenguajes de programación de PYPL puede ayudarlo a decidir qué lenguaje estudiar o cuál usar en un nuevo proyecto de software."
+
+## Ejecución del código
+Debe tener docker instalado en su sistema. A partir de ahí sólo hay que lanzar el siguiente comando dentro del path donde está el código
+
+```sh
+ docker compose up --build
+```
+Esto instalará las dependencias y creará la imágen docker con todo lo necesario además de ejecutar el código. Tras una espera de unos segundos, generará un video .mp4 con la evolución.
+
+Espero sea ilustrativo
+
+:::::::::: :::::::::  :::::::::: :::::::::: ::::    ::::  :::::::::: ::::    ::::  
+:+:        :+:    :+: :+:        :+:        +:+:+: :+:+:+ :+:        +:+:+: :+:+:+ 
++:+        +:+    +:+ +:+        +:+        +:+ +:+:+ +:+ +:+        +:+ +:+:+ +:+ 
+:#::+::#   +#++:++#:  +#++:++#   +#++:++#   +#+  +:+  +#+ +#++:++#   +#+  +:+  +#+ 
++#+        +#+    +#+ +#+        +#+        +#+       +#+ +#+        +#+       +#+ 
+#+#        #+#    #+# #+#        #+#        #+#       #+# #+#        #+#       #+# 
+###        ###    ### ########## ########## ###       ### ########## ###       ### 
