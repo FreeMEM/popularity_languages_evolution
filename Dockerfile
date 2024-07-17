@@ -17,5 +17,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Ejecutar el script
-# CMD ["python", "generate_animation_mpeg.py"]
-CMD ["python", "generate_line_animation_mpeg.py"]
+
+CMD ["./run_all.sh"]
